@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	div{
+		width: 500px;  /* 가로 너비 div에서는 사실 auto는 생략해도 됨. */
+		height: 100px; /* 세로 너비 */
+		background: tomato;
+		
+	}
+	
+	span{
+		font-size: 50px;/* 인라인라벨이기 때문에 폰트 크기나 유무에 따라 달라진다!*/
+		width: auto;
+		height: 100px;
+		background: skyblue;
+	}
+	</style>
+</head>
+<body>
+
+	<!-- div 태그는 특별한 의미가 없는 태그.
+		 주로 구분 용도로 많이 사용됨.
+		 block라벨 전체를 다 먹는다!
+		 대표적인 block 라벨 - div, h, hr태그 -->
+	
+	<!-- 1. 블록 요소
+			- 주요 태그 : div, hn, p
+			- 사용 가능한 최대 가로 너비를 사용한다.
+			- width: 100%; height: 0%;를 기본적으로 시작.
+			- 수직으로 쌓인다.
+			- margin, padding의 속성에 위, 아래, 좌, 우 사용이 가능하다.
+			- layout을 설정하는 용도로 사용된다.
+			
+		2. 인라인 요소
+			- 주요 태그 : span, img
+			- 필요한 만큼만의 너비를 사용한다.
+			- 크기를 지정할 수 없다.
+			- width: 0%; height: 0%;를 기본으로 시작.(== 의미가 없다)
+			- 수평으로 쌓인다.
+			- margin, padding 사용이 불가.
+			- 주로 텍스트를 설정하는 용도로 사용된다. -->
+	<div></div>
+	<br/>
+	<span>텍스트</span>
+
+</body>
+</html>

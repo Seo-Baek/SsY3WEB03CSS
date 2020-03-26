@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	#style1{
+		color: blue;
+		font-style: italic;
+		font-size: 20pt;
+	}
+	.style2{
+		color: orange;
+		font-weight: bold;
+		font-size: 18pt;
+	}
+	.style3-1{
+		color: red;
+		font-size: 25pt;
+	}
+
+</style>
+</head>
+<body>
+	<!-- 문제
+		  1. id = style1 : 글자색 아무거나, font-style: 이탤릭체, 글자 크기: 20pt
+		  2. class=style2: 글자색: 오렌지, 글자 굵기: 진하게, 글자 크기: 18pt
+		  3. class=style3-1: 글자색: 빨간색, 글자 크기: 25pt -->
+
+	<h2>id 선택자</h2>
+	<h3 id="style1">스타일1 적용</h3>
+	<hr />
+	<h2>class 선택자</h2>
+	<h3 class="style2">스타일2 적용</h3>
+	<hr />
+	<div id="style3">
+		<p class="style3-1">스타일3적용</p>
+		<h2 class="style3-1">스타일3적용</h2>
+	</div>
+</body>
+</html>
